@@ -28,17 +28,38 @@ const styles = StyleSheet.create({
     }
     ,
     buttonsContainer:{
-
+      flexDirection:'row',
+      justifyContent:'space-between',
+      marginTop:40,
     },
     button:{
-
+      height:150,
+      width:'48%',
+      justifyContent:'space-between',
+      borderRadius:8,
+      padding:24,
+      backgroundColor:'#333',
     },
     buttonText:{
-        
+      fontFamily:'Archivo_700Bold',
+      color:'#fff',
+      fontSize:20
     },
-            buttonPrimary:{
-        
-            },
+    buttonPrimary:{
+        backgroundColor:'#9871f5'
+    },
+    buttonSecondary:{
+      backgroundColor:'#04d361'
+    },
+    totalConnections:{
+      fontFamily:'Poppins_400Regular',
+      color:'#d4c2ff',
+      fontSize:12,
+      lineHeight:20,
+      maxWidth:140,
+      marginTop:40
+
+    }
   });
 
   export default styles;
